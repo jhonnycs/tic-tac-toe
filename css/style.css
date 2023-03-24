@@ -1,0 +1,110 @@
+:root {
+    --bgcolor: #1f1f1f;
+    --bgcolor2: #131313;
+    --color: #d8d8d8;
+    --color2: #a5a5a5;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loadOverlay {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgcolor);
+    color: var(--color);
+    height: 80vh;
+}
+
+h1 {
+    font-size: 2.5em;
+    padding: 0px 13px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ini {
+    font-size: 2.5em;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.ini:hover {
+    background-color: var(--bgcolor2);
+    color: var(--color2);
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    background-color: var(--color);
+    color: var(--bgcolor2);
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: var(--color2);
+}
+
+#container {
+    margin-top: 20px;
+    width: 280px;
+    height: 270px;
+}
+
+#container span {
+    width: 70px;
+    height: 90px;
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+    font-size: 4.7em;
+    text-align: center;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+ 
+.vertical {
+    position: absolute;
+    display: inline-block;
+    height: 90px;
+}
+
+#playerAt {
+    margin-top: 20px;
+    font-size: 1.7em;
+}
+
+#pont {
+    margin-top: 50px;
+    font-size: 1.7em;
+}
+
+.pont {
+    font-size: 2em;
+    padding: 0px 20px;
+    
+}
